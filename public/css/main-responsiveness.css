@@ -1,0 +1,515 @@
+/* --- Small Desktop ---*/
+
+@media screen 
+  and (min-width: 991px) 
+  and (max-width: 1200px) 
+ { 
+
+	.sign-up .form h5 {
+	    font-size: 14px;
+	    margin-bottom: 5px;
+	}
+
+	.sign-up .form {
+	    padding: 0px 20px;
+	}
+
+	.form-group.pull-right.text-right {
+	    margin-top: 0px;
+	}
+
+	.form input.form-control {
+	    margin-bottom: 8px;
+	}
+	
+	input.btn.btn-primary.btn-s {
+	    font-size: 11px;
+	    font-weight: bold;
+	}
+	
+	.testimonials {
+	    padding: 0px 0px 0px 0px;
+	}
+	
+	.testimonials p {
+	    font-size: 12px;
+	    line-height: 19px;
+	}
+	
+	h2 {
+	    font-size: 22px;
+	}
+	
+	.why-choose-yca .WhyChoose {
+	    margin-right: 0px;
+	    padding-left: 17px;
+	}
+	
+	.why-choose-yca {
+	    font-size: 11px;
+	}
+	
+	.credit-score {
+	    font-size: 12px;
+	}
+	
+	.help {
+	    font-size: 11px;
+	}
+	
+	.testimonials img {
+	    width: 100px;
+	}
+	
+	.testimonials p {
+	    font-size: 11px;
+	    line-height: 15px;
+	    font-style: italic;
+	}
+	
+	.video iframe {
+	    height: 199px !important;
+	}
+	
+	p.text-justify {
+	    font-size: 11px;
+	}
+
+}
+
+
+/* Portrait and Landscape */
+@media only screen 
+	and (min-width: 768px) 
+  and (max-width: 990px) 
+{
+	.logo {
+	    width: 44%;
+	    float: left;
+	}
+
+	.call-us {
+	    width: 26%;
+	    float: left;
+	}
+
+	.call-us h1 {
+	    font-size: 15px;
+	    margin-top: 45px;
+	}
+
+	.call-us h1 .number {
+	    font-size: 22px;
+	}
+
+	.login {
+	    width: 30%;
+	    float: left;
+	    padding: 20px;
+	}
+
+	.login .btn {
+	    margin-bottom: 6px;
+	    font-size: 10px !important;
+	}
+
+	.nav a {
+	    font-size: 11px;
+	}
+
+	.slider {
+	   margin-bottom: 10px;
+	}
+
+	section.banner {
+    	padding-top: 222px;
+	}
+
+	.steps {
+	    width: 100%;
+	    float: left;
+	}
+
+	.testimonials {
+	    width: 80%;
+	    margin: 0 auto;
+	    overflow: auto;
+	    height: 350px;
+	    border-right: 1px solid #DEDEDE;
+	}
+
+	h2 {
+	    font-size: 18px;
+	}
+
+	.credit-score {
+	    width: 35%;
+	    float: left;
+	}
+
+	.help {
+	    width: 45%;
+	    float: left;
+	}
+
+	.rights {
+	    float: left;
+	    width: 20%;
+	}
+
+	.rights .col-md-3 {
+	    width: 35%;
+	    float: left;
+	}
+
+	.video {
+	    float: left;
+	    overflow: auto;
+	    width: 100%;
+	}
+
+	iframe#YTVideoSM {
+	    height: 500px !important;
+	}
+
+	.video {
+	    margin-top: 20px;
+	}
+
+	.help .col-md-6 {
+	    width: 50%;
+	    float: left;
+	}
+
+	.strip span {
+	    font-size: 21px;
+	}
+
+	.secondary-footer .col-md-2 {
+	    width: 15%;
+	    float: left;
+	}
+
+	.secondary-footer .col-md-3 {
+	    width: 30%;
+	    float: left;
+	}
+
+	.secondary-footer .col-md-5 {
+	    width: 30%;
+	    float: left;
+	}
+
+	.secondary-footer .col-md-5 img {
+	    width: 100%;
+	    margin-top: 30px;
+	}
+
+	.secondary-footer h3 {
+	    font-size: 14px;
+	}
+
+	.secondary-footer h2 {
+	    font-size: 10px;
+	}
+
+	.secondary-footer a {
+	    font-size: 12px;
+	}
+
+	.secondary-footer ul {
+	    padding-left: 2px;
+	}
+
+
+}
+
+/* Small Screen */
+@media only screen 
+  and (max-width: 768px) 
+{
+
+	.logo {
+	    width: 40%;
+	    float: left;
+	}
+
+	.call-us {
+	    width: 23%;
+	    float: left;
+	}
+
+	.login {
+	    width: 28%;
+	    float: left;
+	    padding: 16px 0;	
+	}
+
+	.call-us h1 {
+	    font-size: 15px;
+	    margin-top: 28px;
+	}
+
+	.login .btn {
+	    font-size: 9px !important;
+	}
+
+	section.banner {
+	    padding-top: 158px;
+	}
+
+	.testimonials {
+	    margin-top: 0px;
+	}
+
+	.steps img {
+	    padding: 20px 0;
+	}
+
+	.why-choose-us {
+	    padding-top: 30px;
+	}
+
+	.WhyChoose {
+	    float: left;
+	    width: 50%;
+	    padding-bottom: 28px;
+	    padding-left: 50px;
+	}
+
+	.credit-score {
+	    width: 35%;
+	    float: left;
+	}
+
+	.help {
+	    width: 45%;
+	    float: left;
+	}
+
+	.help .col-md-6 {
+	    width: 50%;
+	    float: left;
+	}
+
+	.rights {
+	    float: left;
+	    width: 20%;
+	}
+
+	.rights .col-md-3 {
+	    width: 35%;
+	    float: left;
+	}
+
+	iframe {
+	    height: 450px !important;
+	}
+
+	.strip span {
+	    font-size: 17px;
+	}
+
+	.secondary-footer .col-md-2 {
+	    width: 15%;
+	    float: left;
+	}
+
+	.secondary-footer .col-md-3 {
+	    width: 30%;
+	    float: left;
+	}
+
+	.secondary-footer .col-md-5 {
+	    width: 30%;
+	    float: left;
+	}
+
+	.secondary-footer .col-md-5 img {
+	    width: 100%;
+	    margin-top: 30px;
+	}
+
+	.secondary-footer h3 {
+	    font-size: 14px;
+	}
+
+	.secondary-footer h2 {
+	    font-size: 10px;
+	}
+
+	.secondary-footer a {
+	    font-size: 12px;
+	}
+
+	.secondary-footer ul {
+	    padding-left: 2px;
+	}
+
+}
+
+/* Smaller Screen */
+@media only screen 
+	and (min-width: 480px) 
+  	and (max-width: 768px) 
+{
+
+	.call-us {
+	    display: none;
+	}
+
+	.login {
+	    display: none;
+	}
+
+	.logo {
+	    width: 50%;
+	    float: left;
+	}
+	.navbar-toggle {
+	    margin-top: 38px;
+	}
+
+	.navbar-brand p {
+	    font-size: 0.5em;
+	    text-transform: uppercase;
+	    letter-spacing: 1px;
+	}
+
+	section.banner {
+	    padding-top: 145px;
+	}
+
+}
+
+/* Mobile Screen */
+@media only screen 
+  	and (max-width: 488px) 
+{
+	.call-us {
+	    display: none;
+	}
+
+	.login {
+	    display: none;
+	}
+
+	.logo {
+	    width: 70%;
+	    float: left;
+	}
+
+	.navbar-toggle {
+	    margin-top: 35px;
+	}
+
+	section.banner {
+	    padding-top: 145px;
+	}
+
+	.navbar-brand p {
+	    font-size: 0.4em;
+	}
+
+	.WhyChoose {
+	    margin: 0 auto;
+	    width: 75%;
+	    float: none;
+	}
+
+	.credit-score {
+	    width: 100%;
+	    float: left;
+	}
+
+	.help {
+	    width: 100%;
+	    float: left;
+	}
+
+	.help .col-md-6 {
+	    width: 50%;
+	    float: left;
+	}
+
+	.rights {
+	    float: left;
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+
+	.rights .col-md-3 {
+	    width: 20%;
+	    float: left;
+	}
+
+	iframe {
+	    height: 450px !important;
+	}
+
+
+	.secondary-footer .col-md-2 {
+	    width: 50%;
+	    float: left;
+	    text-align: left;
+	}
+
+	.secondary-footer .col-md-3 {
+	    width: 100%;
+	    float: left;
+	    text-align: center;
+	}
+
+	.secondary-footer .col-md-5 {
+	    width: 100%;
+	    float: left;
+	}
+
+	.secondary-footer .col-md-5 img {
+	    width: 100%;
+	    margin-top: 30px;
+	}
+
+	.secondary-footer h3 {
+	    font-size: 14px;
+	}
+
+	.secondary-footer h2 {
+	    font-size: 15px;
+	    text-align: center !important;
+	}
+
+	.secondary-footer a {
+	    font-size: 12px;
+	}
+
+	.secondary-footer ul {
+	    padding-left: 0px;
+	    list-style: none;
+	    padding: 0;
+	}
+
+	.strip a {
+	    color: #fff;
+	    padding: 6px 15px;
+	    border: 1px solid #fff;
+	    border-radius: 4px;
+	    margin-left: 13px;
+	    font-size: 12px;
+	}
+	
+	.rights .col-md-4 {
+	    padding: 0;
+	    overflow: auto;
+	}
+	
+	.pdfComment {
+	    font-size: 13px;
+	    margin-top: 26px;
+	}
+	
+	.video{
+		margin-top: 30px !important;
+		float: left;
+	}
+}

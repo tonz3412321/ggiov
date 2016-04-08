@@ -1,0 +1,327 @@
+.header {
+    background: #fff;
+}
+
+.navbar-brand {
+    text-align: center;
+    height: auto !important;
+}
+
+.logo{
+	overflow: auto;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.navbar-brand p {
+    font-size: 0.6em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.call-us h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 27px;
+}
+
+.call-us h1 .number {
+    font-weight: bold;
+    font-size: 30px;
+    color: #B22115;
+}
+
+input.btn.btn-primary.btn-s {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.login {
+    padding-top: 40px;
+    text-align: right;
+}
+
+.menu {
+    border-top: 1px solid #e7e7e7;
+}
+
+section.banner {
+    padding-top: 200px;
+    background: #FFCD48;
+    padding-bottom: 30px;
+}
+
+.main-content{
+	padding: 50px 0;
+}
+
+.sign-up .form {
+    width: 100%;
+    margin: auto;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    border: 1px solid #DFDFDF;
+    padding: 10px 25px;
+    overflow: auto;
+}
+
+.sign-up .form h5 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #2F61AC;
+}
+
+.form input.form-control {
+    margin-bottom: 10px;
+}
+
+.form-group.pull-right.text-right {
+    margin-top: 10px;
+}
+
+.sign-up .form span {
+    font-size: 12px;
+}
+
+.steps {
+    padding-right: 37px;
+    margin-top: 18px;
+}
+
+.steps img {
+    width: 100%;
+    padding: 0px 0 50px;
+}
+
+.sidebar {
+	border-left: 1px solid #DEDEDE;
+	
+}
+
+.testimonials {
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px 60px 0px 30px;
+}
+
+h2 {
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonials img {
+        width: 140px;
+}
+
+.testimonials h3 {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+    text-transform: uppercase;
+    color: #FFCD48;
+}
+
+.testimonials h4 {
+    margin: 0;
+    font-size: 13px;
+    color: #B62115;
+}
+
+.testimonials p {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 22px;
+    color: grey;
+}
+
+.testimonials a {
+    padding: 7px 11px;
+    background: #000;
+    font-size: 12px;
+    color: #FFCD48;
+}
+
+.testimonials a:hover {
+	text-decoration: none;
+	background: #3E3E3E;
+}
+
+.why-choose-yca {
+    font-size: 13px;
+}
+
+.why-choose-yca .glyphicon {
+    color: green;
+    padding-right: 12px;
+}
+
+.badges img{
+	width: 100%;
+}
+
+.video, .badges{
+	margin: 50px 0;
+}
+
+.badges h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.help .col-md-6 {
+    padding: 0;
+}
+
+.help ul {
+    padding: 0 14px;
+}
+
+
+.pdfComment {
+    font-size: 10px;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.pdfComment span {
+    font-weight: 200;
+}
+
+.rights .col-md-4 {
+    padding: 0;
+}
+
+.video {
+    margin-top: 73px;
+}
+
+.video iframe {
+    height: 250px !important;
+}
+
+.strip {
+    background: #FFCD48;
+    padding: 20px;
+    text-align: center;
+}
+
+.strip span {
+    color: #000;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.strip a {
+    color: #fff;
+    padding: 11px 25px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin-left: 13px;
+}
+
+.strip a:hover{
+	background: #fff;
+	color: #000;
+	text-decoration: none;
+}
+
+.secondary-footer {
+    background: #1B1B1B;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.secondary-footer img {
+    width: 100%;
+}
+
+.secondary-footer h3 {
+    color: #FFCD48;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.secondary-footer h2 {
+    color: #8C8C8C;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: left !important;
+}
+
+.secondary-footer a {
+    color: #fff;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+.credit-score {
+    text-align: left;
+    font-size: 14px;
+    padding: 0px 30px 0px 20px;
+}
+
+.credit-score .row {
+    padding-left: 20px;
+}
+
+.credit-score span {
+    padding-right: 15px;
+    color: #FFCD48;
+    float: left;
+    margin-bottom: 9px;
+}
+
+.video {
+    margin: 25px 0 0 0 !important;
+}
+
+.credit-score img {
+    padding: 0;
+}
+
+.help ul {
+    padding: 0;
+    list-style: none;
+    color: grey !important;
+}
+
+.secondary-footer ul {
+    padding: 0 20px;
+}
+
+.help span {
+    color: #FFCD48;
+    font-size: 11px;
+    padding-right: 4px;
+}
+
+.help li {
+    padding-bottom: 6px;
+}
+
+.social-media i {
+    font-size: 23px;
+    padding-right: 6px;
+    color: #FFCD48;
+}
+
+.social-media a:hover i {
+    color: #fff;
+}
+
+.slider {
+    padding: 0;
+}
