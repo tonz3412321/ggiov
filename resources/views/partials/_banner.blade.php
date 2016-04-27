@@ -7,6 +7,7 @@
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
@@ -40,13 +41,18 @@
         <div class="col-md-4 sign-up">
             <div class="form">
                 <h5>SIGN UP FOR A FREE CONSULTATION</h5>
-                <form id="signup">
+                <form id="signup" action="{{ route('post.consultation') }}" method="post">
+
+                    {{ csrf_field() }}
+
+                    <span>Please enter your Email</span>
+                    <input type="email" name="ContactEmail" class="form-control" placeholder="Please enter your Email Address" required>
 
                     <span>Please enter your name</span>
-                    <input type="text" name="ContactName" class="form-control" placeholder="Please enter your Name">
+                    <input type="text" name="ContactName" class="form-control" placeholder="Please enter your Name" required>
 
                     <span>Please enter your Phone Number</span>
-                    <input type="tel" class="form-control" name="ContactPhone" placeholder="Please enter your Phone Number">
+                    <input type="tel" class="form-control" name="ContactPhone" placeholder="Please enter your Phone Number" required>
 
                     <div class="form-group pull-right text-right">
                         <button type="button" onclick="this.form.reset();" class="btn btn-sm btn-warning">CLEAR</button>

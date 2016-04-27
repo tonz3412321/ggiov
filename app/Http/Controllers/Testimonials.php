@@ -22,11 +22,12 @@ class Testimonials extends Controller
 
     public function store(Request $request) {
 
-        Testimonial::create($request->all());
+        $testimonials = Testimonial::create($request->all());
 
         $testimonials = Testimonial::orderBy('created_at', 'desc')->get();
+        $count = count($testimonials);
 
-        return view('pages.testimonials', ['testimonials' => $testimonials]);
+        return view('pages.testimonials', ['testimonials' => $testimonials, 'count' => $count ]);
 
 
     }

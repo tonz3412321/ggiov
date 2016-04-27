@@ -24,70 +24,64 @@
 |
 */
 
-Route::get('/', [
-    'as' => 'home',
-    'uses' => 'YourCreditAllianceController@index'
-]);
-
-
-Route::get('/privacy', [
-    'as' => 'privacy',
-    'uses' => 'YourCreditAllianceController@privacy'
-]);
-Route::get('/services', [
-    'as' => 'services',
-    'uses' => 'YourCreditAllianceController@services'
-]);
-
-
-Route::get('/testimonials', [
-    'as' => 'testimonials',
-    'uses' => 'YourCreditAllianceController@testimonials'
-]);
-
-Route::get('/faq', [
-    'as' => 'faq',
-    'uses' => 'YourCreditAllianceController@faq'
-]);
-
-Route::get('/prices', [
-    'as' => 'prices',
-    'uses' => 'YourCreditAllianceController@prices'
-]);
-
-Route::get('/guarantee', [
-    'as' => 'guarantee',
-    'uses' => 'YourCreditAllianceController@guarantee'
-]);
-
-Route::get('/education', [
-    'as' => 'education',
-    'uses' => 'YourCreditAllianceController@education'
-]);
-
-Route::get('/terms-and-condition', [
-    'as' => 'terms.and.conditions',
-    'uses' => 'YourCreditAllianceController@termsandcondtions'
-]);
-
-Route::get('/affiliate', [
-    'as' => 'affiliate',
-    'uses' => 'YourCreditAllianceController@affiliate'
-]);
-
-Route::get('/contact-us', [
-    'as' => 'contactus',
-    'uses' => 'YourCreditAllianceController@contactus'
-]);
-
-
-
-
-
-
 
 Route::group(['middleware' => ['web']], function () {
 
+    Route::get('/', [
+        'as' => 'home',
+        'uses' => 'YourCreditAllianceController@index'
+    ]);
+
+
+    Route::get('/privacy', [
+        'as' => 'privacy',
+        'uses' => 'YourCreditAllianceController@privacy'
+    ]);
+    Route::get('/services', [
+        'as' => 'services',
+        'uses' => 'YourCreditAllianceController@services'
+    ]);
+
+
+    Route::get('/testimonials', [
+        'as' => 'testimonials',
+        'uses' => 'YourCreditAllianceController@testimonials'
+    ]);
+
+    Route::get('/faq', [
+        'as' => 'faq',
+        'uses' => 'YourCreditAllianceController@faq'
+    ]);
+
+    Route::get('/prices', [
+        'as' => 'prices',
+        'uses' => 'YourCreditAllianceController@prices'
+    ]);
+
+    Route::get('/guarantee', [
+        'as' => 'guarantee',
+        'uses' => 'YourCreditAllianceController@guarantee'
+    ]);
+
+    Route::get('/education', [
+        'as' => 'education',
+        'uses' => 'YourCreditAllianceController@education'
+    ]);
+
+    Route::get('/terms-and-condition', [
+        'as' => 'terms.and.conditions',
+        'uses' => 'YourCreditAllianceController@termsandcondtions'
+    ]);
+
+    Route::get('/affiliate', [
+        'as' => 'affiliate',
+        'uses' => 'YourCreditAllianceController@affiliate'
+    ]);
+
+    Route::get('/contact-us', [
+        'as' => 'contactus',
+        'uses' => 'YourCreditAllianceController@contactus'
+    ]);
 
     Route::get('/testimonials', [
         'as' => 'testimonials',
@@ -97,6 +91,11 @@ Route::group(['middleware' => ['web']], function () {
     Route::post('/testimonials', [
         'as' => 'post.testimonials',
         'uses' => 'Testimonials@store'
+    ]);
+
+    Route::post('/consultation', [
+        'as' => 'post.consultation',
+        'uses' => 'YourCreditAllianceController@consultation'
     ]);
 
 

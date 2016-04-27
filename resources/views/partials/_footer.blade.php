@@ -5,9 +5,11 @@
             <div class="col-md-3">
                 <h2>Useful Links</h2>
                 <ul>
-                    <li><a href="#">Home Page</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">FAQs</a></li>
+                    <li><a href="{{ route('home') }}">Home Page</a></li>
+                    <li><a href="{{ route('contactus') }}">Contact Us</a></li>
+                    <li><a href="{{ route('faq') }}">FAQs</a></li>
+                    <li><a href="{{ route('testimonials') }}">Testimonials</a></li>
+                    <li><a href="{{ route('guarantee') }}">Guarantee</a></li>
                     <li><a href="#">Testimonials</a></li>
                 </ul>
                 <div class="social-media">
@@ -24,8 +26,8 @@
                 <h2>Legal Links</h2>
                 <ul>
                     <li><a href="#">Refund Policy</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
+                    <li><a href="{{ route('terms.and.conditions') }}">Terms of Use</a></li>
                 </ul>
             </div>
             <div class="col-md-3">

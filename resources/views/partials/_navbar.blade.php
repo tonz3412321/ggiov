@@ -33,9 +33,7 @@
                     <li class="{{ $title=='testimonials' ? 'active': '' }}"><a href="{{ route('testimonials') }}">Testimonials</a></li>
                     <li class="{{ $title=='faq' ? 'active': '' }}"><a href="{{ route('faq') }}">F.A.Q.</a></li>
                     <li class="{{ $title=='prices' ? 'active': '' }}"><a href="{{ route('prices') }}">Prices</a></li>
-                    <li class="{{ $title=='guarantee' ? 'active': '' }}"><a href="{{ route('guarantee') }}">Guarantee</a></li>
                     <li class="{{ $title=='education' ? 'active': '' }}"><a href="{{ route('education') }}">Education</a></li>
-                    <li class="{{ $title=='termsandcondtions' ? 'active': '' }}"><a href="{{ route('terms.and.conditions') }}">Terms and Conditions</a></li>
                     <li class="{{ $title=='affiliate' ? 'active': '' }}"><a href="{{ route('affiliate') }}">Affiliate</a></li>
                     <li class="{{ $title=='contactus' ? 'active': '' }}"><a href="{{ route('contactus') }}">Contact Us</a></li>
                     {{--<li class="{{ $title=='home' ? 'active': '' }}"><a href="#contact">Sign Up Page</a></li>--}}

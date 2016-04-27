@@ -61,4 +61,27 @@ class YourCreditAllianceController extends Controller
         return view('pages.home');
     }
 
+    public function consultation(Request $request) {
+
+        $name = $request->ContactName;
+        $phone = $request->ContactPhone;
+        $email = $request->ContactEmail;
+
+        $data = [ 'name' => $name,
+                   'phone' => $phone,
+                    'email' => $email ];
+
+        \Mail::send('emails.consultation_client', $data, function ($message) use ($email) {
+            $message->to($email)->subject('Your Credit Alliance Free Consultation Notification');
+        });
+
+
+        \Mail::send('emails.consultation_admin', $data, function ($message) use ($email) {
+            $message->to('tonzrf123@gmail.com')->subject('Client Consultation Recieved');
+        });
+
+
+
+    }
+
 }
