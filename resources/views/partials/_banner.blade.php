@@ -38,6 +38,8 @@
             </div>
         </div>
 
+
+
         <div class="col-md-4 sign-up">
             <div class="form">
                 <h5>SIGN UP FOR A FREE CONSULTATION</h5>
@@ -54,11 +56,16 @@
                     <span>Please enter your Phone Number</span>
                     <input type="tel" class="form-control" name="ContactPhone" placeholder="Please enter your Phone Number" required>
 
+                    @if (Session::has('message'))
+                        <div class="alert alert-info">{{ Session::get('message') }}</div>
+                    @endif
+
                     <div class="form-group pull-right text-right">
                         <button type="button" onclick="this.form.reset();" class="btn btn-sm btn-warning">CLEAR</button>
 
                         <input type="submit" class="btn btn-sm btn-primary" value="SUBMIT">
                     </div>
+
                 </form>
             </div>
         </div>

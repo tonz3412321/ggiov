@@ -8,6 +8,8 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use App\Testimonial;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
 
 class YourCreditAllianceController extends Controller
 {
@@ -71,15 +73,26 @@ class YourCreditAllianceController extends Controller
                    'phone' => $phone,
                     'email' => $email ];
 
-        \Mail::send('emails.consultation_client', $data, function ($message) use ($email) {
-            $message->to($email)->subject('Your Credit Alliance Free Consultation Notification');
-        });
+        try
+        {
+
+            \Mail::send('emails.consultation_client', $data, function ($message) use ($email) {
+                $message->to($email)->subject('Your Credit Alliance Free Consultation Notification');
+            });
 
 
-        \Mail::send('emails.consultation_admin', $data, function ($message) use ($email) {
-            $message->to('tonzrf123@gmail.com')->subject('Client Consultation Recieved');
-        });
+            \Mail::send('emails.consultation_admin', $data, function ($message) use ($email) {
+                $message->to('tonzrf123@gmail.com')->subject('Client Consultation Recieved');
+            });
+        }
+        catch(\Exception $e){
 
+            Session::flash('message', "Your Consultation message has been failed to send. Please try again");
+            return Redirect::back();
+        }
+
+        Session::flash('message', "Your Consultation message has been succesfully sent");
+        return Redirect::back();
 
 
     }

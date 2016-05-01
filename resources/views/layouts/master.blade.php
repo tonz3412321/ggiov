@@ -22,5 +22,6 @@
 
       @include('partials._javascripts');
       @yield('custom_javascripts')
+
   </body>
 </html>
